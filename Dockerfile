@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 
-COPY target/word-scramble.jar app.jar
+COPY target/word-scramble-backend-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
